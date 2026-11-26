@@ -18,7 +18,7 @@ jobs:
           - platform: 8
             platform_name: tvossimulator
     
-    runs-on: macos-26
+    runs-on: macos-26-intel
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
